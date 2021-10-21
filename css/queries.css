@@ -1,0 +1,237 @@
+/*************************************/
+/* Responsive layouts */
+/************************************/
+
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header {
+    padding: 3.2rem 3.2rem 8.6rem 3.2rem;
+  }
+
+  .grid {
+    column-gap: 5.4rem;
+    row-gap: 6.4rem;
+  }
+
+  .hero-grid {
+    gap: 11.5rem;
+  }
+
+  .project-grid {
+    column-gap: 2.8rem;
+  }
+
+  .hero-heading {
+    font-size: 11rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+
+  /* .blockquote {
+    margin-bottom: 3rem;
+  } */
+}
+
+/* 1072px */
+@media (max-width: 67em) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+  }
+
+  .hero-grid {
+    gap: 9.6rem;
+  }
+
+  .project-grid {
+    column-gap: 2rem;
+  }
+
+  .design-tools-container {
+    gap: 9.6rem;
+  }
+}
+
+/* 960px */
+@media (max-width: 60em) {
+  .edusponsor-img-left {
+    top: 10%;
+    left: 45%;
+  }
+}
+
+/* 864px */
+@media (max-width: 54em) {
+  .hero-grid {
+    column-gap: 6.4rem;
+  }
+
+  .blockquote,
+  .container-sm {
+    max-width: 100%;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .design-tools-container,
+  .publication-grid {
+    gap: 4.8rem;
+  }
+}
+
+/* 816px */
+@media (max-width: 51em) {
+  .btn-left {
+    position: absolute;
+    top: 47%;
+    left: 80%;
+  }
+
+  .btn-right {
+    top: 98%;
+    right: 15%;
+  }
+
+  .publication-text-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  .project-grid {
+    column-gap: 1.8rem;
+  }
+
+  .hero-grid,
+  .design-tools-container,
+  .publication-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-img-box {
+    display: none;
+  }
+
+  .heading-secondary {
+    line-height: 4.8rem;
+  }
+
+  .hero-img-box {
+    display: none;
+  }
+}
+
+/* 608px */
+@media (max-width: 38em) {
+  .hero-section {
+    padding: 4rem 0 7rem 0;
+  }
+
+  .hero-heading {
+    font-size: 9.6rem;
+  }
+
+  .hero-heading span {
+    width: 22.4rem;
+    height: 10.4rem;
+  }
+
+  .hero-text {
+    transform: translateY(40%);
+  }
+
+  .hero-description {
+    margin-top: 3rem;
+  }
+
+  .hero-left-icon {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .hero-description {
+    margin-top: 2rem;
+  }
+}
+
+/* 550px */
+@media (max-width: 34em) {
+  .container {
+    padding: 5.2rem;
+  }
+
+  .hero-section {
+    padding: 3rem 0 4.2rem 0;
+  }
+
+  .projects-section,
+  .design-tools-section,
+  .publications-section,
+  .what-i-do-section {
+    padding: 4.2rem 0;
+  }
+
+  .hero-heading {
+    font-size: 6.4rem;
+    line-height: 6rem;
+  }
+
+  .hero-heading span {
+    width: 16rem;
+    height: 8rem;
+  }
+
+  .hero-text {
+    transform: translateY(-20%);
+  }
+
+  .project {
+    padding: 4rem 2.4rem;
+  }
+
+  .btn:link {
+    padding: 1.4rem 3rem;
+  }
+
+  /* .btn-sm:link {
+    padding: 0.8rem 1.4rem;
+  } */
+
+  .btn-md:link {
+    padding: 1.8rem 3.2rem;
+  }
+
+  .btn-right {
+    transform: translateY(-80%);
+  }
+
+  .margin-bottom-md {
+    margin-bottom: 4rem !important;
+  }
+
+  .blockquote {
+    margin-bottom: 3rem;
+  }
+}
+
+/*************************************/
+/* Fixing Safari flexbox gap */
+/************************************/

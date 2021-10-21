@@ -1,0 +1,216 @@
+/*********************************************/
+/* DESIGN SYSTEM */
+/*********************************************/
+
+/* 
+
+01 TYPOGRAPHY
+
+- Font Size (px):   
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Weight 
+Extra Bold: 800
+Medium: 500
+
+- Line Height
+Default: 1
+
+
+- Letter Spacing
+
+
+02 COLORS
+
+- Primary:
+
+#FF6B6B
+rgba(255, 107, 107, 1)
+
+#F04770
+
+
+- Accent:
+#3347FF
+
+#CED3FF
+
+#03B66B;
+#4ECDC4
+
+
+- Grey
+#090909
+rgba(9, 9, 9, 1)
+
+#BCBCBC
+#FFF1FB
+#E4E3E3
+#FFEFEA
+#C4C4C4
+#3F3F3F
+
+
+05 SHADOWS
+
+filter: drop-shadow(0px 4px 20px rgba(255, 239, 234, 0.3));
+
+Text-Shadow
+0px 1px 24px rgba(0, 0, 0, 0.1)
+
+- Gradient
+linear-gradient(90deg, #FF6B6B 0%, #FAAB32 53.94%, #FF6B6B 100%);
+
+
+
+06 BORDER RADIUS
+
+07 WHITESPACE
+
+- Spacing System (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+
+
+*/
+
+@font-face {
+  font-family: "TT-Norms";
+  src: url(/fonts/TT-Norms-Fonts/TTNorms-ExtraBold.otf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url(/fonts/Axiforma/Axiforma-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url(/fonts/Axiforma/Axiforma-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url(/fonts/Axiforma/Axiforma-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("/fonts/Axiforma/Axiforma-Medium.eot");
+  src: local("Axiforma Medium"), local("Axiforma-Medium"),
+    url("/fonts/Axiforma-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Axiforma/Axiforma-Medium.woff2") format("woff2"),
+    url("/fonts/Axiforma/Axiforma-Medium.woff") format("woff"),
+    url("/fonts/Axiforma/Axiforma-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Axiforma", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #fffafd;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+}
+
+.main-stop-color {
+  stop-color: #ff6b6b;
+}
+
+.alt-stop-color {
+  stop-color: #faab32;
+}
+
+.bg-dark {
+  background-color: #090909;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 9.6rem;
+}
+
+.container-sm {
+  max-width: 70%;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-secondary {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  line-height: 6.4rem;
+}
+
+.heading-tertiary {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.paragraph-sm {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.71);
+  line-height: 3rem;
+  margin-bottom: 2.4rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 6.4rem;
+}
