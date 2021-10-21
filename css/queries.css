@@ -230,6 +230,14 @@
   .blockquote {
     margin-bottom: 3rem;
   }
+
+  .footer-section {
+    padding: 9.6rem 0;
+  }
+
+  .footer-social-links {
+    gap: 1rem;
+  }
 }
 
 /*************************************/
