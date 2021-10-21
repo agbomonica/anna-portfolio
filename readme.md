@@ -13,4 +13,4 @@
 
 ## The project is hosted on netlify
 
-<a href="https://moanna.netlify.app/"></a>
+<a href="https://moanna.netlify.app/">Link to the project</a>
