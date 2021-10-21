@@ -13,5 +13,4 @@ I leveraged on a couple of third party services for optimization to ensure good 
 
 ## Deployed on netlify
 
-- [Anna Portfolio](https://moanna.netlify.app/">)
-
+- [Anna Portfolio](https://moanna.netlify.app/)
