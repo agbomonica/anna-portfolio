@@ -1,16 +1,17 @@
 # Anna Portfolio
 
-- This is a landing page portfolio website implemented with HTML & CSS.
+A single-page portfolio website implemented with HTML5, CSS3, & JavaScript.
 
-- I leveraged on a couple of third party applications for assets optimization to ensure good website performance and better user experience.
+## Site optimization
 
-- <a href="https://squoosh.app/">Squoosh image compression app</a>
-- <a href="https://jakearchibald.github.io/svgomg/">SVGOMG was used to reduce the size of SVG icons</a>
-- <a href="https://yeun.github.io/open-color/">Open Color scheme generator (for tints & shades)</a>
-- <a href="https://cssgradient.io/">CSS gradient generator</a>
-- <a href="https://www.netlify.com/">For deployment on Netlify</a>
-- VS Code Text Editor
+I leveraged on a couple of third party services for optimization to ensure good website performance and better user experience.
 
-## The project is hosted on netlify
+- [Squoosh image compression app](https://squoosh.app/)
+- [SVGOMG](https://jakearchibald.github.io/svgomg/): was used to reduce the size of SVG icons.
+- [Open colour](https://yeun.github.io/open-color/): Open Color scheme generator (for tints & shades)
+- [CSS gradient generator](https://cssgradient.io/)
 
-<a href="https://moanna.netlify.app/">Link to anna portfolio</a>
+## Deployed on netlify
+
+- [Anna Portfolio](https://moanna.netlify.app/">)
+
