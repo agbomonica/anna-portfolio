@@ -162,7 +162,7 @@
     #faab32 53.94%,
     #ff6b6b 100%
   );
-  background-clip: border-box;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -296,8 +296,8 @@
 .nav-open .hero-img-box {
   display: block;
   top: 25%;
-  right: 12%;
-  transform: translate(-7%, -12%);
+  right: 10%;
+  transform: translate(-7%, -10%);
 }
 
 .nav-open .hero-img-icon .alt-stop-col {
@@ -331,41 +331,28 @@
   color: #fff;
 }
 
-.what-i-do-icon-box {
-  width: 4.8rem;
-  height: 4.8rem;
-  border-radius: 10px;
-  margin-bottom: 3.2rem;
-  background: linear-gradient(90deg, #ff6b6b 0%, #faab32 53.94%, #ff6b6b 100%);
-  z-index: -1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .what-i-do-list {
   position: relative;
 }
 
-.what-i-do-list::after {
-  content: "";
-  z-index: -2;
-  width: 5rem;
-  height: 5.4rem;
-  background: linear-gradient(
-    112.87deg,
-    rgba(255, 255, 255, 0.4) 4.74%,
-    rgba(255, 255, 255, 0.1) 99.13%
-  );
-  box-shadow: 0px 1px 24px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-
-  border-radius: 5px 0 10px 10px;
+.what-i-do-icon-top {
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(20%, -30%);
+  z-index: 10;
+  top: -15%;
+  left: -4%;
+}
+
+.what-i-do-icon-box {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-bottom: 3.2rem;
+  position: relative;
+  background: linear-gradient(90deg, #ff6b6b 0%, #faab32 53.94%, #ff6b6b 100%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .what-i-do-text {
